@@ -35,3 +35,15 @@ footer{
     right:10%;
 }
 
+.rodape{
+    color: #eeeeee;
+    text-align: center;
+}
+
+.endereco{
+    margin-top: 1%;    /** SE POSSÍVEL DESCOBRIR COMO CENTRALIZAR PARA NÃO PRECISAR BOTAR dessa forma **/
+}
+
+.email{
+    margin-top: 0.4%;    /** SE POSSÍVEL DESCOBRIR COMO CENTRALIZAR PARA NÃO PRECISAR BOTAR dessa forma **/
+}
