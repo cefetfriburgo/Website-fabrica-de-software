@@ -10,7 +10,7 @@ footer{
     height: 90px;
     width: 100%;
     background: #333333;
-    bottom: 0px;
+    bottom: 0;
     position: absolute;
 }
 
