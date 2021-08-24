@@ -25,7 +25,13 @@ header {
 
 footer{
     height: 90px;
+<<<<<<< HEAD
     bottom: 0px;
+=======
+    width: 100%;
+    background: #333333;
+    bottom: 0;
+>>>>>>> f1363fee1d846484c01cf193d2a16a5082c32254
     position: absolute;
 }
 
