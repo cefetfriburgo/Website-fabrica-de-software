@@ -1,24 +1,52 @@
-*{
+/* Desktop - 1280px - 1400px */
+* {
     padding: 0;
-    margin:0 auto;
     box-sizing: border-box;
     font-family: 'Open Sans';
+    /*
     max-width: 100%;
+    */
+}
+
+
+body {
+    margin:0;
+}
+
+header, footer {
+    background: #333333;
+    width: 100%;
+}
+
+header {
+    position:fixed;
+    height:70px;
 }
 
 footer{
     height: 90px;
-    width: 100%;
-    background: #333333;
     bottom: 0px;
     position: absolute;
 }
 
+.bg-menu, .bg-footer {
+    width:100vw;
+    margin:0 auto;
+}
+
 .bg-menu{
-    background: #333333;
-    width:100%;
     height:70px;
-    position:fixed;
+}
+
+.bg-menu nav {
+    width: 300px;
+    left: 300px;
+    position:relative;
+}
+
+.bg-menu ul {
+    display:flex;
+    flex-direction:row;
 }
 
 .menu{
