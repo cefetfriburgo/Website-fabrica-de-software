@@ -3,11 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans';
-    /*
-    max-width: 100%;
-    */
 }
-
 
 body {
     margin:0;
@@ -23,36 +19,45 @@ header {
     height:70px;
 }
 
+header li {
+    list-style: none;
+}
+
+header a:link, header a:visited{
+    text-decoration: none;
+    background-color: #444444;
+    color:white;
+    padding: 8px;
+    display:flex;
+    text-align: center;
+    margin:25px;
+    font:21px;
+
+}
+
+header a:hover, header a:active{
+    background-color: #424242;
+    color:rgb(233, 233, 233);
+}
+
 footer{
     height: 90px;
-<<<<<<< HEAD
-    bottom: 0px;
-=======
     width: 100%;
     background: #333333;
     bottom: 0;
->>>>>>> f1363fee1d846484c01cf193d2a16a5082c32254
     position: absolute;
 }
 
-.bg-menu, .bg-footer {
-    width:100vw;
-    margin:0 auto;
-}
-
-.bg-menu{
-    height:70px;
-}
-
 .bg-menu nav {
-    width: 300px;
-    left: 300px;
+    height:70px;
+    left: 720px;
+    top: -10px;
     position:relative;
 }
 
 .bg-menu ul {
     display:flex;
-    flex-direction:row;
+    align-items: center;
 }
 
 .menu{
@@ -69,6 +74,10 @@ footer{
     right:10%;
 }
 
+.slide{
+    height:854px;
+}
+
 .rodape{
     color: #eeeeee;
     text-align: center;
@@ -78,6 +87,3 @@ footer{
     margin-top: 1%;    /** SE POSSÍVEL DESCOBRIR COMO CENTRALIZAR PARA NÃO PRECISAR BOTAR dessa forma **/
 }
 
-.email{
-    margin-top: 0.4%;    /** SE POSSÍVEL DESCOBRIR COMO CENTRALIZAR PARA NÃO PRECISAR BOTAR dessa forma **/
-}
