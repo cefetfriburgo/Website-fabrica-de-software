@@ -31,7 +31,7 @@ header a:link, header a:visited{
     display:flex;
     text-align: center;
     margin:25px;
-    font:21px;
+    font-size:1em;
 
 }
 
@@ -50,7 +50,6 @@ footer{
 
 .bg-menu nav {
     height:70px;
-    left: 720px;
     top: -10px;
     position:relative;
 }
@@ -63,15 +62,7 @@ footer{
 .menu{
     position: absolute;
     max-height: 70px;
-    top: 13%;    /** SE POSSÍVEL DESCOBRIR COMO CENTRALIZAR AS LOGOS E MENU PARA NÃO PRECISAR BOTAR dessa forma **/
-}
-
-.logo_fabrica{
-    left:10%;
-}
-
-.logo_cefet{
-    right:10%;
+    /**top: 13%;   SE POSSÍVEL DESCOBRIR COMO CENTRALIZAR AS LOGOS E MENU PARA NÃO PRECISAR BOTAR dessa forma **/
 }
 
 .slide{
