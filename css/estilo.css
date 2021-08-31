@@ -21,6 +21,7 @@ header {
 
 header li {
     list-style: none;
+    margin:25px 2%;
 }
 
 header a:link, header a:visited{
@@ -30,9 +31,7 @@ header a:link, header a:visited{
     padding: 8px;
     display:flex;
     text-align: center;
-    margin:25px;
     font-size:1em;
-
 }
 
 header a:hover, header a:active{
