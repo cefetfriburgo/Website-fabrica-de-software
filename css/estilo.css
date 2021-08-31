@@ -7,6 +7,7 @@
 
 body {
     margin:0;
+    position: relative;
 }
 
 header, footer {
@@ -47,6 +48,11 @@ footer{
     position: absolute;
 }
 
+.bg-menu {
+    display: flex;
+    /*justify-content:space-between;*/
+}
+
 .bg-menu nav {
     height:70px;
     top: -10px;
@@ -58,9 +64,14 @@ footer{
     align-items: center;
 }
 
+.bg-menu div:last-child img {
+    text-align: right;
+}
+
 .menu{
-    position: absolute;
+    /*position: absolute;*/
     max-height: 70px;
+    margin-top: 9px;
     /**top: 13%;   SE POSSÍVEL DESCOBRIR COMO CENTRALIZAR AS LOGOS E MENU PARA NÃO PRECISAR BOTAR dessa forma **/
 }
 
