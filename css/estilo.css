@@ -4,10 +4,6 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Open Sans';
-}
-
-body {
-    margin:0;
     position: relative;
 }
 
@@ -45,13 +41,13 @@ footer{
     height: 90px;
     width: 100%;
     background: #333333;
-    bottom: 0;
     position: absolute;
+    color: #eeeeee;
+    text-align: center;
 }
 
 .bg-menu {
     display: flex;
-    /*justify-content:space-between;*/
 }
 
 .bg-menu nav {
@@ -70,22 +66,15 @@ footer{
 }
 
 .menu{
-    /*position: absolute;*/
     max-height: 70px;
     margin-top: 9px;
-    /**top: 13%;   SE POSSÍVEL DESCOBRIR COMO CENTRALIZAR AS LOGOS E MENU PARA NÃO PRECISAR BOTAR dessa forma **/
 }
 
 .slide{
     height:854px;
 }
 
-.rodape{
-    color: #eeeeee;
-    text-align: center;
-}
-
 .endereco{
-    margin-top: 1%;    /** SE POSSÍVEL DESCOBRIR COMO CENTRALIZAR PARA NÃO PRECISAR BOTAR dessa forma **/
+    margin-top: 1%;
 }
 
