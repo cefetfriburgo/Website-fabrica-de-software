@@ -4,7 +4,6 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Open Sans';
-    position: relative;
 }
 
 header, footer {
@@ -37,13 +36,18 @@ header a:hover, header a:active{
     color:rgb(233, 233, 233);
 }
 
+body{
+    height: 1600px;
+}
+
 footer{
     height: 90px;
     width: 100%;
     background: #333333;
-    position: absolute;
     color: #eeeeee;
     text-align: center;
+    top:100%;
+    position:absolute;
 }
 
 .bg-menu {
@@ -68,10 +72,6 @@ footer{
 .menu{
     max-height: 70px;
     margin-top: 9px;
-}
-
-.slide{
-    height:854px;
 }
 
 .endereco{
