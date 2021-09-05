@@ -78,6 +78,13 @@ footer{
     margin-right:6%;
 }
 
+/*
+.slide .carousel-control-prev, .carousel-inner, .slide .carousel-control-next  {
+    top:70px;
+    height:800px;
+}
+*/
 .endereco{
     margin-top: 1%;
 }
+
