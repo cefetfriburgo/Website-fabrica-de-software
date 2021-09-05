@@ -28,7 +28,7 @@ header a:link, header a:visited{
     padding: 8px;
     display:flex;
     text-align: center;
-    font-size:1em;
+    font-size:0.9em;
 }
 
 header a:hover, header a:active{
@@ -72,10 +72,6 @@ footer{
 .menu{
     max-height: 70px;
     margin-top: 9px;
-}
-
-.cefet{
-    margin-right:6%;
 }
 
 /*
