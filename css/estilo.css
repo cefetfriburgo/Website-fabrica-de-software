@@ -6,19 +6,18 @@
     font-family: 'Open Sans';
 }
 
-header, footer {
-    background: #333333;
-    width: 100%;
-}
+/* -------------------- Menu -------------------- */
 
 header {
     position:fixed;
-    height:70px;
+    background: #333333;
+    width: 100%;
+    z-index:1;
 }
 
 header li {
     list-style: none;
-    margin:25px 2%;
+    margin:0 2%;
 }
 
 header a:link, header a:visited{
@@ -36,50 +35,120 @@ header a:hover, header a:active{
     color:rgb(233, 233, 233);
 }
 
-body{
-    height: 1600px;
-}
-
-footer{
-    height: 90px;
-    width: 100%;
-    background: #333333;
-    color: #eeeeee;
-    text-align: center;
-    top:100%;
-    position:absolute;
-}
-
-.bg-menu {
-    display: flex;
-}
-
-.bg-menu nav {
-    height:70px;
-    top: -10px;
+.bg-menu{
     position:relative;
+    height:70px;
 }
 
 .bg-menu ul {
     display:flex;
     align-items: center;
-}
-
-.bg-menu div:last-child img {
-    text-align: right;
+    position:absolute;
+    height: 100%;
 }
 
 .menu{
-    max-height: 70px;
-    margin-top: 9px;
+    display:flex;
+    position:absolute;
+    height: 60%;
+    top:12%;
 }
 
-.slide .carousel-control-prev, .carousel-inner, .slide .carousel-control-next  {
+/* -------------------- Corpo do Site -------------------- */
+
+body{
+    height: 2000px; /* Após site pronto, pode tirar o height, ele está só para teste */
+    background-color:#fff; /* Fundo Branco para verificar possiveis erros */
+}
+
+/* -------------------- Slide -------------------- */
+
+.carousel-inner{
     top:70px;
     height:800px;
+    width: 100%;
+    z-index:0;
+    position:relative;
 }
 
-.endereco{
-    margin-top: 1%;
+
+.slide .carousel-control-prev, .slide .carousel-control-next{
+    justify-content:center;
+    position:absolute;
+    display:flex;
+}
+
+/* -------------------- Nossa Trajetória -------------------- */
+
+/*
+
+.trajetoria{
+    width:100%;
+    background-color:#333333;
+    position: relative; 
+    height:850px;   
+}
+
+.circulo_amarelo{
+    width:40%;
+    position:absolute;
+    display:flex;
+    height:80%;
+    justify-content:center;
+    align-items: center;
+    background-color:#f1be2d;
+}
+
+*/
+
+/* -------------------- Chamado -------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------- Rodapé -------------------- */
+
+footer{
+    height: 100px;
+    width: 100%;
+    background: #333333;
+    color: #eeeeee;
+    text-align: center;
+    top:100%;
+    position:relative;
+    background: #333333;
+    width: 100%;
+}
+
+footer p {
+    justify-content:center;
+    position:absolute;
+    display:flex;
+    width: 100%;
+    height:100%;
+    align-items: center;
 }
 
