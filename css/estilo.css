@@ -50,8 +50,19 @@ header a:hover, header a:active{
 .menu{
     display:flex;
     position:absolute;
-    height: 60%;
-    top:12%;
+    top:13%;
+}
+
+@media (max-width: 767px){
+    .logo_fabrica{
+        height:70px;    
+        width:100%;
+        position:absolute;
+        display:flex;
+        float:left;
+        justify-content:center; /*meio horizontal*/
+        align-items: center;  /*meio vertical*/ 
+    }
 }
 
 /* -------------------- Corpo do Site -------------------- */
@@ -71,7 +82,6 @@ body{
     position:relative;
 }
 
-
 .slide .carousel-control-prev, .slide .carousel-control-next{
     justify-content:center;
     position:absolute;
@@ -80,26 +90,98 @@ body{
 
 /* -------------------- Nossa Trajetória -------------------- */
 
-/*
+
 
 .trajetoria{
+    position:relative;
+    height:80vh;  
     width:100%;
-    background-color:#333333;
-    position: relative; 
-    height:850px;   
+    background-color:#222222; 
+    top:70px;
 }
 
 .circulo_amarelo{
-    width:40%;
-    position:absolute;
-    display:flex;
+    position: absolute;
+    border-radius: 50%;
     height:80%;
-    justify-content:center;
-    align-items: center;
+    width:40%;
+    top:10%;
+    display:flex;
+    margin: 0 30%;
     background-color:#f1be2d;
 }
 
-*/
+.trajetoria2{
+    position: relative; 
+    height: 100%;
+    width: 100%;
+    margin-top:20%;   
+}
+
+
+.circulo_amarelo h2{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    color:#333333;
+    justify-content:center;
+    display:flex;    
+    font-size:1.9em; 
+    margin-top:-10%; 
+}
+
+.circulo_amarelo p{
+    margin:2% 15% 0 15%;
+    position: absolute;
+    height: 40%;
+    width: 70%;
+    color:#333333;
+    justify-content:center;
+    display:flex;  
+    text-align:justify;  
+    font-size:0.9em;
+}
+
+@media(max-width: 575px){
+    .circulo_amarelo h2{  
+        font-size:1.1em;
+    }
+    
+    .circulo_amarelo p{ 
+        font-size:0.5em;
+    }
+}
+
+@media(min-width: 576px) and (max-width: 767px){
+    .circulo_amarelo h2{ 
+        font-size:1.3em;
+    }
+    
+    .circulo_amarelo p{ 
+        font-size:0.6em;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+    .circulo_amarelo h2{ 
+        font-size:1.5em;
+    }
+    
+    .circulo_amarelo p{ 
+        font-size:0.7em;
+    }
+}
+
+@media(min-width: 992px) and (max-width: 1200px){
+    .circulo_amarelo h2{  
+        font-size:1.8em;
+    }
+    
+    .circulo_amarelo p{ 
+        font-size:0.8em;
+    }
+}
+
 
 /* -------------------- Chamado -------------------- */
 
