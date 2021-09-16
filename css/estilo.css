@@ -67,10 +67,7 @@ header a:hover, header a:active{
 
 /* -------------------- Corpo do Site -------------------- */
 
-body{
-    height: 2000px; /* Após site pronto, pode tirar o height, ele está só para teste */
-    background-color:#fff; /* Fundo Branco para verificar possiveis erros */
-}
+
 
 /* -------------------- Slide -------------------- */
 
@@ -82,15 +79,13 @@ body{
     position:relative;
 }
 
-.slide .carousel-control-prev, .slide .carousel-control-next{
+.slide{
     justify-content:center;
     position:absolute;
     display:flex;
 }
 
 /* -------------------- Nossa Trajetória -------------------- */
-
-
 
 .trajetoria{
     position:relative;
@@ -103,11 +98,9 @@ body{
 .circulo_amarelo{
     position: absolute;
     border-radius: 50%;
-    height:80%;
-    width:40%;
-    top:10%;
+    height:600px;
+    width:600px;
     display:flex;
-    margin: 0 30%;
     background-color:#f1be2d;
 }
 
@@ -117,7 +110,6 @@ body{
     width: 100%;
     margin-top:20%;   
 }
-
 
 .circulo_amarelo h2{
     position: absolute;
@@ -142,13 +134,26 @@ body{
     font-size:0.9em;
 }
 
+.trajetoria button{
+    margin:45% 0 0 37%;
+}
+
 @media(max-width: 575px){
+
+    .circulo_amarelo{
+    border-radius: 50%;
+    height:60vh;
+    width:90vw;
+    justify-content: center;
+    margin: 10vh 5vw;
+    }
+
     .circulo_amarelo h2{  
         font-size:1.1em;
     }
     
     .circulo_amarelo p{ 
-        font-size:0.5em;
+        font-size:0.6em;
     }
 }
 
@@ -182,34 +187,27 @@ body{
     }
 }
 
-
 /* -------------------- Chamado -------------------- */
 
+.chamado{
+    top:50px;
+    height:80vh;
+    width: 100%;
+    position: relative;
+    background-image: url("../imgs/Chamado_foto1.png");
+    background-position:center;
+}
 
+.chamado h3, .chamado h2, .chamado span{
+    display:flex;
+    justify-content:center; /*meio horizontal*/
+    align-items: center;  /*meio vertical*/ 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.chamado button{
+    position:absolute;
+    margin: 10% 45% 0 45%;
+}
 
 /* -------------------- Rodapé -------------------- */
 
