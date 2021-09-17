@@ -92,6 +92,9 @@ header a:hover, header a:active{
     height:80vh; 
     background-color:#222222; 
     top:70px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 
 .circulo_amarelo{
