@@ -220,6 +220,10 @@ header a:hover, header a:active{
     align-self:center;
 }
 
+.chamado span{
+    font-size:1.3rem;
+}
+
 /* -------------------- Rodapé -------------------- */
 
 footer{
