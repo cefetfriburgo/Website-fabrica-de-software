@@ -74,6 +74,12 @@ header a:hover, header a:active{
 
 
 /* -------------------- Slide -------------------- */
+
+.carousel-inner{
+    top:70px;
+    padding-bottom:70px;
+}
+
 /*
 .carousel-inner{
     top:70px;
@@ -216,6 +222,7 @@ header a:hover, header a:active{
 }
 
 .chamado button{
+    margin-top:20px;
     width:200px;
     align-self:center;
 }
