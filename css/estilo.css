@@ -221,6 +221,14 @@ header a:hover, header a:active{
     align-items: center;  /*meio vertical*/
 }
 
+.hr1{
+    margin-bottom: 20vh;
+}
+
+.hr2{
+    margin-top:20vh;
+}
+
 .chamado button{
     margin-top:20px;
     width:200px;
