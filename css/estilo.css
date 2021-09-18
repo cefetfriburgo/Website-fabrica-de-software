@@ -15,9 +15,14 @@ header {
     z-index:1;
 }
 
+header ul{
+    padding:0;
+    margin:0;
+}
+
 header li {
     list-style: none;
-    margin:0 2%;
+    margin:0 1%;
 }
 
 header a:link, header a:visited{
@@ -36,28 +41,27 @@ header a:hover, header a:active{
 }
 
 .bg-menu{
-    position:relative;
     height:70px;
 }
 
 .bg-menu ul {
     display:flex;
     align-items: center;
-    position:absolute;
     height: 100%;
 }
 
-.menu{
+.centralizando{
     display:flex;
-    position:absolute;
-    top:13%;
+    justify-content:center; /*meio horizontal*/
+    align-self:center;
+}
+
+.logos{
+    height:40px;
 }
 
 @media (max-width: 767px){
-    .logo_fabrica{
-        height:70px;    
-        width:100%;
-        position:absolute;
+    .logos{  
         display:flex;
         float:left;
         justify-content:center; /*meio horizontal*/
@@ -168,13 +172,6 @@ header a:hover, header a:active{
         width: 150px;
         height: 48px;
     }
-}
-@media(min-width: 576px) and (max-width: 767px){
-
-}
-
-@media(min-width: 768px) and (max-width: 991px){
-
 }
 
 @media(min-width: 600px) and (max-width: 1099px){
