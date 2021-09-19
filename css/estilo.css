@@ -1,4 +1,4 @@
-/* Desktop - 1280px - 1400px */
+/* -------------------- Padrões Gerais -------------------- */
 * {
     padding: 0;
     margin: 0;
@@ -6,18 +6,34 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.botoes{
+    width:20vw;
+    align-self:center;
+    justify-content: center;
+    font-size:1em;
+    font-weight: bold;
+}
+
+@media (max-width:600px) {
+    .botoes{
+        width:25vw;
+    }    
+}
+
+/* -------------------- Fim dos Padrões Gerais -------------------- */
+
+
+
 /* -------------------- Menu -------------------- */
 
 header {
     position:fixed;
     background: #333333;
-    width: 100%;
     z-index:1;
 }
 
 header ul{
     padding:0;
-    margin:0;
 }
 
 header li {
@@ -31,7 +47,6 @@ header a:link, header a:visited{
     color:white;
     padding: 8px;
     display:flex;
-    text-align: center;
     font-size:0.9em;
 }
 
@@ -52,7 +67,7 @@ header a:hover, header a:active{
 
 .centralizando{
     display:flex;
-    justify-content:center; /*meio horizontal*/
+    justify-content:center;
     align-self:center;
 }
 
@@ -63,7 +78,6 @@ header a:hover, header a:active{
 @media (max-width: 767px){
     .logos{  
         display:flex;
-        float:left;
         justify-content:center; /*meio horizontal*/
         align-items: center;  /*meio vertical*/ 
     }
@@ -79,21 +93,6 @@ header a:hover, header a:active{
     top:70px;
     padding-bottom:70px;
 }
-
-/*
-.carousel-inner{
-    top:70px;
-    height:800px;
-    width: 100%;
-    z-index:0;
-    position:relative;
-}
-
-.slide{
-    justify-content:center;
-    position:absolute;
-    display:flex;
-}*/
 
 /* -------------------- Nossa Trajetória -------------------- */
 
@@ -145,14 +144,6 @@ header a:hover, header a:active{
     margin-bottom: 45px;
 }
 
-.trajetoria button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 206px;
-    height: 66px;
-}
-
 @media(max-width: 599px) {
     .circulo_amarelo {
         height: 90vw;
@@ -173,11 +164,6 @@ header a:hover, header a:active{
     .circulo_amarelo p{
         font-size:0.5rem;
     }
-    
-    .trajetoria button{
-        width: 150px;
-        height: 48px;
-    }
 }
 
 @media(min-width: 600px) and (max-width: 1099px){
@@ -197,11 +183,6 @@ header a:hover, header a:active{
     .circulo_amarelo p{
         font-size:0.8rem;
     }
-    
-    .trajetoria button{
-        width: 150px;
-        height: 48px;
-    }
 }
 
 /* -------------------- Chamado -------------------- */
@@ -213,6 +194,7 @@ header a:hover, header a:active{
     background-position:center;
     flex-direction: column;
     justify-content:center; /*meio horizontal*/
+    text-align: center;
 }
 
 .chamado h3, .chamado h2, .chamado span{
@@ -231,8 +213,6 @@ header a:hover, header a:active{
 
 .chamado button{
     margin-top:20px;
-    width:200px;
-    align-self:center;
 }
 
 .chamado span{
