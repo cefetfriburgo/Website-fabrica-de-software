@@ -1,23 +1,69 @@
-/* Desktop - 1280px - 1400px */
+/* -------------------- Padrões Gerais -------------------- */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans';
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+.botoes{
+    width:20vw;
+    align-self:center;
+    justify-content: center;
+    font-size:1em;
+    font-weight: bold;
+}
+
+@media (max-width:600px) {
+    .botoes{
+        width:25vw;
+    }    
+}
+
+/* -------------------- Fim dos Padrões Gerais -------------------- */
+
+
+
 /* -------------------- Menu -------------------- */
+
+.bg-new{    
+    position:fixed;
+    background: #333333;
+    z-index:2;
+    width:100%;
+    height:70px;
+}
+
+.nav-items{
+    background: #333333;
+}
+
+@media (max-width:992px) {
+    .fabrica{
+        display:flex;
+        justify-content:center;
+        align-items:center; 
+        margin-right: 33.33333vw;
+    } 
+}
+
+.cefet{
+    margin-right:8.33333%;
+}
 
 header {
     position:fixed;
     background: #333333;
-    width: 100%;
     z-index:1;
+}
+
+header ul{
+    padding:0;
 }
 
 header li {
     list-style: none;
-    margin:0 2%;
+    margin:0 1%;
 }
 
 header a:link, header a:visited{
@@ -26,7 +72,6 @@ header a:link, header a:visited{
     color:white;
     padding: 8px;
     display:flex;
-    text-align: center;
     font-size:0.9em;
 }
 
@@ -36,30 +81,28 @@ header a:hover, header a:active{
 }
 
 .bg-menu{
-    position:relative;
     height:70px;
 }
 
 .bg-menu ul {
     display:flex;
     align-items: center;
-    position:absolute;
     height: 100%;
 }
 
-.menu{
+.centralizando{
     display:flex;
-    position:absolute;
-    top:13%;
+    justify-content:center;
+    align-self:center;
+}
+
+.logos{
+    height:40px;
 }
 
 @media (max-width: 767px){
-    .logo_fabrica{
-        height:70px;    
-        width:100%;
-        position:absolute;
+    .logos{  
         display:flex;
-        float:left;
         justify-content:center; /*meio horizontal*/
         align-items: center;  /*meio vertical*/ 
     }
@@ -73,164 +116,156 @@ header a:hover, header a:active{
 
 .carousel-inner{
     top:70px;
-    height:800px;
-    width: 100%;
-    z-index:0;
-    position:relative;
-}
-
-.slide{
-    justify-content:center;
-    position:absolute;
-    display:flex;
+    padding-bottom:70px;
 }
 
 /* -------------------- Nossa Trajetória -------------------- */
 
 .trajetoria{
-    position:relative;
-    height:80vh; 
     background-color:#222222; 
-    top:70px;
     display:flex;
     justify-content:center;
     align-items:center;
+    padding: 30px 0px;
 }
 
 .circulo_amarelo{
-    position: absolute;
     border-radius: 50%;
-    height:600px;
-    width:600px;
+    height:85vh;
+    width:85vh;
     display:flex;
     background-color:#f1be2d;
 }
 
 .trajetoria2{
-    position: relative; 
-    height: 100%;
-    width: 100%;
-    margin-top:20%;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.circulo_amarelo h1 {
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-size: 1.4rem;
 }
 
 .circulo_amarelo h2{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    color:#333333;
+    color:#000000;
     justify-content:center;
     display:flex;    
-    font-size:1.9em; 
-    margin-top:-10%; 
+    font-size:3.0em; 
+    margin-bottom: 35px;
 }
 
 .circulo_amarelo p{
-    margin:2% 15% 0 15%;
-    position: absolute;
-    height: 40%;
-    width: 70%;
-    color:#333333;
+    color:#000000;
     justify-content:center;
     display:flex;  
-    text-align:justify;  
-    font-size:0.9em;
+    width: 80%;
+    text-align: center;  
+    font-size:1rem;
+    margin-bottom: 45px;
 }
 
-.trajetoria button{
-    margin:45% 0 0 37%;
-}
+@media(max-width: 599px) {
+    .circulo_amarelo {
+        height: 90vw;
+        width: 90vw;
 
-@media(max-width: 575px){
-
-    .circulo_amarelo{
-    border-radius: 50%;
-    height:96vw;
-    width:96vw;
-    justify-content: center;
-    margin: 4vw 2vw;
     }
 
-    .circulo_amarelo h2{  
-        font-size:1.1em;
+    .circulo_amarelo h1 {
+        font-size: 0.4rem;
+        margin: 0px;
     }
     
-    .circulo_amarelo p{ 
-        font-size:0.6em;
+    .circulo_amarelo h2{
+        font-size: 1.0rem; 
+        margin: 0px;
+    }
+    
+    .circulo_amarelo p{
+        font-size:0.5rem;
     }
 }
 
-@media(min-width: 576px) and (max-width: 767px){
-    .circulo_amarelo h2{ 
-        font-size:1.3em;
+@media(min-width: 600px) and (max-width: 1099px){
+    .circulo_amarelo {
+        height: 500px;
+        width: 500px;
     }
-    
-    .circulo_amarelo p{ 
-        font-size:0.6em;
-    }
-}
 
-@media(min-width: 768px) and (max-width: 991px){
-    .circulo_amarelo h2{ 
-        font-size:1.5em;
+    .circulo_amarelo h1 {
+        font-size: 0.9rem;
     }
     
-    .circulo_amarelo p{ 
-        font-size:0.7em;
-    }
-}
-
-@media(min-width: 992px) and (max-width: 1200px){
-    .circulo_amarelo h2{  
-        font-size:1.8em;
+    .circulo_amarelo h2{
+        font-size: 1.8em; 
     }
     
-    .circulo_amarelo p{ 
-        font-size:0.8em;
+    .circulo_amarelo p{
+        font-size:0.8rem;
     }
 }
 
 /* -------------------- Chamado -------------------- */
 
 .chamado{
-    top:50px;
     height:80vh;
-    width: 100%;
-    position: relative;
+    display:flex;
     background-image: url("../imgs/Chamado_foto1.png");
     background-position:center;
+    flex-direction: column;
+    justify-content:center; /*meio horizontal*/
+    text-align: center;
 }
 
 .chamado h3, .chamado h2, .chamado span{
     display:flex;
     justify-content:center; /*meio horizontal*/
-    align-items: center;  /*meio vertical*/ 
+    align-items: center;  /*meio vertical*/
+}
+
+.hr1{
+    margin-bottom: 20vh;
+}
+
+.hr2{
+    margin-top:20vh;
 }
 
 .chamado button{
-    position:absolute;
-    margin: 10% 45% 0 45%;
+    margin-top:20px;
+}
+
+.chamado span{
+    font-size:1.3rem;
 }
 
 /* -------------------- Rodapé -------------------- */
 
 footer{
-    height: 100px;
-    width: 100%;
+    height: 15vh;
     background: #333333;
     color: #eeeeee;
     text-align: center;
-    top:100%;
-    position:relative;
-    background: #333333;
     width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
 }
 
-footer p {
-    justify-content:center;
-    position:absolute;
-    display:flex;
-    width: 100%;
-    height:100%;
-    align-items: center;
+@media(min-width: 380px) and (max-width: 1439px){
+    footer{
+        height:20vh;
+    }
+}
+
+@media(max-width: 379px){
+    footer{
+        height:30vh;
+    }
 }
 
