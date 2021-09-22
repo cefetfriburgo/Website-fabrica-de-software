@@ -68,7 +68,6 @@ header li {
 
 header a:link, header a:visited{
     text-decoration: none;
-    background-color: #444444;
     color:white;
     padding: 8px;
     display:flex;
