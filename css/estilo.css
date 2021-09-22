@@ -67,6 +67,9 @@
     #menu-personalizado #logo-mobile {
         margin: 0 auto;
     }
+    #menu-personalizado #logo-mobile img{
+        margin: 0;
+    }
 }
 
 /* -------------------- Menu -------------------- */
