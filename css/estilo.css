@@ -24,7 +24,7 @@
 
 
 
-/* ----------------------- Novo Menu Matheus Siqueira ------------------- */
+/* ----------------------- Novo Menu ------------------- */
 
 #menu-personalizado {
     background-color: #333333;
@@ -210,28 +210,28 @@ header a:hover, header a:active{
     width: 80%;
     text-align: center;  
     font-size:1rem;
-    margin-bottom: 45px;
+    margin-bottom: 3vw;
 }
 
 @media(max-width: 599px) {
     .circulo_amarelo {
         height: 90vw;
         width: 90vw;
-
     }
 
     .circulo_amarelo h1 {
-        font-size: 0.4rem;
-        margin: 0px;
+        font-size: 0.8rem;
+        margin: 0 0 1vw 0;
     }
     
     .circulo_amarelo h2{
         font-size: 1.0rem; 
-        margin: 0px;
+        margin: 0 0 1vw 0;
     }
     
     .circulo_amarelo p{
-        font-size:0.5rem;
+        font-size:0.6rem;
+        margin: 0 0 1vw 0;
     }
 }
 
@@ -243,14 +243,17 @@ header a:hover, header a:active{
 
     .circulo_amarelo h1 {
         font-size: 0.9rem;
+        margin: 0 0 1vw 0;
     }
     
     .circulo_amarelo h2{
         font-size: 1.8em; 
+        margin: 0 0 1vw 0;
     }
     
     .circulo_amarelo p{
         font-size:0.8rem;
+        margin: 0 0 1vw 0;
     }
 }
 
