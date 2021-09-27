@@ -1,0 +1,28 @@
+
+.mt-30{
+    margin-top:30px;
+}
+
+
+/* -------------------- Telas -------------------- */
+
+.tela1, .tela2,.tela3{
+    padding: 20px;
+}
+
+.tela1{
+    background-color:#EEEEEE;
+}
+.tela2{
+    background-color:#F1BE2D;
+}
+.tela3{
+    background-color:#333333;
+    color:white;
+}
+
+.date{
+    text-decoration: underline;
+}
+
+/* ---------------- Fim das telas ---------------- */
