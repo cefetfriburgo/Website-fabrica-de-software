@@ -1,4 +1,9 @@
 
+/* -------------------- Padrões Gerais -------------------- */
+
+
+
+
 /* -------------------- Telas -------------------- */
 
 .tela1, .tela2,.tela3{
@@ -14,6 +19,39 @@
 }
 .tela3{
     background-color:#F1BE2D;
+}
+
+.circulo_preto{
+    border-radius: 50%;
+    height:40vh;
+    width:40vh;
+    display:flex;
+    background-color:#333333;
+    justify-content:center;
+}
+
+.circulo_branco{
+    border-radius: 50%;
+    height:40vh;
+    width:40vh;
+    display:flex;
+    background-color:#EEEEEE;
+    justify-content:center;
+}
+
+.circulo_amarelo2{
+    border-radius: 50%;
+    height:40vh;
+    width:40vh;
+    display:flex;
+    background-color:#F1BE2D;
+    justify-content:center;
+}
+
+.img_responsiva{
+    height:25vh;
+    width:25vh;
+    align-self:center;
 }
 
 
