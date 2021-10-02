@@ -3,11 +3,12 @@
 
 
 
-
 /* -------------------- Telas -------------------- */
 
 .tela1, .tela2,.tela3{
     padding: 20px;
+    min-height:20vh;
+    align-items: center;
 }
 
 .tela1{
@@ -23,35 +24,42 @@
 
 .circulo_preto{
     border-radius: 50%;
-    height:40vh;
-    width:40vh;
+    height:60vh;
+    width:60vh;
     display:flex;
     background-color:#333333;
     justify-content:center;
+    align-self:end;
+    margin-bottom:-20vh;
 }
 
 .circulo_branco{
     border-radius: 50%;
-    height:40vh;
-    width:40vh;
+    height:60vh;
+    width:60vh;
     display:flex;
     background-color:#EEEEEE;
     justify-content:center;
+    align-self:end;
+    margin-bottom:-20vh;
 }
 
 .circulo_amarelo2{
     border-radius: 50%;
-    height:40vh;
-    width:40vh;
+    height:60vh;
+    width:60vh;
     display:flex;
     background-color:#F1BE2D;
     justify-content:center;
+    align-self:end;
+    margin-bottom:-20vh;
 }
 
 .img_responsiva{
     height:25vh;
     width:25vh;
     align-self:center;
+    margin-bottom:10vh;
 }
 
 
