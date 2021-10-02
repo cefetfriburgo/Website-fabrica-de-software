@@ -1,4 +1,3 @@
-
 /* -------------------- Padrões Gerais -------------------- */
 
 .mt-30{
@@ -8,11 +7,13 @@
 /* -------------------- Telas -------------------- */
 
 .tela1, .tela2,.tela3{
-    padding: 20px;
+    padding: 20px 0;
 }
 
 .tela1{
     background-color:#EEEEEE;
+    z-index:1;
+    position: relative;
 }
 .tela2{
     background-color:#F1BE2D;
@@ -25,5 +26,12 @@
 .date{
     text-decoration: underline;
 }
+/*
+.triangulo_branco{
+    border: 10em solid;
+    border-color: transparent #EEEEEE transparent transparent;
+    width: 0;
+    height: 0; 
+}*/
 
 /* ---------------- Fim das telas ---------------- */
