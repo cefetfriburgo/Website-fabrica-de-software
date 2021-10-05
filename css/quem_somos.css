@@ -16,7 +16,9 @@
     font-size:2rem;
     color: #000;  
     text-transform: uppercase;
-    margin: 20px;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .paragrafo{
@@ -48,12 +50,7 @@
 }
 .main-participantes {
     font-size: 1.5rem;
-}
-
-.main-participantes h2{
-    text-align: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    color: #000;
 }
 
 .participantes{
@@ -61,11 +58,11 @@
     color: white;
 }
 
-.participantes h2{
+.participantes .titulo-grande{
     color: white;
 }
 
-.participantes img{
+.img-circle{
     border-radius: 50%;
     border: 2px solid white;
     width: 13.75rem;
@@ -73,7 +70,7 @@
     max-width: 100%;
     object-fit:cover;
 }
-.participantes p{
+.participantes p, .ex-participantes p{
     display: inline-block;
     margin-left: 1.5rem;
 }
@@ -81,8 +78,33 @@
     margin-bottom: 2rem;   
 }
 
-.container-card:last-child{
+.container-card:last-child {
     margin-bottom: 3rem;
+}
+
+.ex-participantes{
+    background-color: #F1BE2D;
+}
+
+.ex-participantes .img-circle{
+    width: 11.25rem;
+    height: 10.36rem;
+}
+
+.coordenadores{
+    text-align: center;
+}
+
+.coordenadores .img-circle{
+    width: 18.75rem;
+    height: 18.75rem;
+    display: block;
+    margin: auto;
+}
+
+.coordenadores p{
+    display: inline-block;
+    padding-top: 1rem;
 }
 
 /* ----------------------- Medias ----------------------- */
