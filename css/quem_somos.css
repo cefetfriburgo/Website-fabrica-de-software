@@ -70,10 +70,12 @@
     max-width: 100%;
     object-fit:cover;
 }
+
 .participantes p, .ex-participantes p{
     display: inline-block;
     margin-left: 1.5rem;
 }
+
 .container-card{
     margin-bottom: 2rem;   
 }
@@ -113,7 +115,24 @@
 @media(max-width:599px){
     .titulo-grande{
         font-size:1.6rem;
-    }        
+    }
+    
+    .img-circle{
+        width: 7.12rem;
+        height: 7.25rem;
+    }
+
+    .participantes p, .ex-participantes p{
+        display: inline-block;
+        margin-left: 1.5rem;
+        font-size: 1.13rem;
+        
+    }
+
+    .ex-participantes .img-circle{
+        width: 5.91rem;
+        height: 6rem;
+    }
 }
 
 @media(min-width:600px) and (max-width:1099px){
