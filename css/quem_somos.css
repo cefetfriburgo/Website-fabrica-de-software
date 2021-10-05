@@ -41,9 +41,48 @@
     padding: 0;
     list-style-position: inside;
     color: #000;
+    margin-bottom: 0;
 }
 .main-mvv ul li{
-    font-size: 2.3vh;
+    font-size: 1rem;
+}
+.main-participantes {
+    font-size: 1.5rem;
+}
+
+.main-participantes h2{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.participantes{
+    background-color: #333;
+    color: white;
+}
+
+.participantes h2{
+    color: white;
+}
+
+.participantes img{
+    border-radius: 50%;
+    border: 2px solid white;
+    width: 13.75rem;
+    height: 12.66rem;
+    max-width: 100%;
+    object-fit:cover;
+}
+.participantes p{
+    display: inline-block;
+    margin-left: 1.5rem;
+}
+.container-card{
+    margin-bottom: 2rem;   
+}
+
+.container-card:last-child{
+    margin-bottom: 3rem;
 }
 
 /* ----------------------- Medias ----------------------- */
