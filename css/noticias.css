@@ -1,37 +1,86 @@
 /* -------------------- Padrões Gerais -------------------- */
 
-.mt-30{
-    margin-top:30px;
+.mt-30 {
+    margin-top: 30px;
 }
+
 
 /* -------------------- Telas -------------------- */
 
-.tela1, .tela2,.tela3{
-    padding: 20px 0;
-}
-
-.tela1{
-    background-color:#EEEEEE;
-    z-index:1;
+.tela1 {
+    background-color: #EEEEEE;
+    z-index: 1;
     position: relative;
 }
-.tela2{
-    background-color:#F1BE2D;
-}
-.tela3{
-    background-color:#333333;
-    color:white;
+
+.tela2 {
+    background-color: #F1BE2D;
 }
 
-.date{
+.tela3 {
+    background-color: #333333;
+    color: #EEE;
+}
+
+.date {
     text-decoration: underline;
+    z-index:1;
 }
-/*
-.triangulo_branco{
-    border: 10em solid;
-    border-color: transparent #EEEEEE transparent transparent;
-    width: 0;
-    height: 0; 
-}*/
 
+.triangulo_branco {
+    border-top: 7em solid transparent;
+    border-bottom: 7em solid transparent;
+    border-right: 20em solid #EEE;
+    width: 0;
+    height: 0;
+    display:flex;
+    margin-top:-8em;
+    z-index:0;
+}
+
+.triangulo_amarelo{
+    border-top: 7em solid transparent;
+    border-bottom: 7em solid transparent;
+    border-left: 20em solid #F1BE2D;
+    width: 0;
+    height: 0;
+    display:flex;
+    margin-top:-8em;
+    z-index:0;
+}
+
+.triangulo_preto {
+    border-top: 7em solid transparent;
+    border-bottom: 7em solid transparent;
+    border-right: 20em solid #333;
+    width: 0;
+    height: 0;
+    display:flex;
+    margin-top:-8em;
+    z-index:0;
+}
+
+.align-right{
+    display:flex;
+    justify-content:right;
+}
+
+.align-left{
+    display:flex;
+    justify-content:left;
+}
+
+.noticia1{
+    margin-top:2em;
+}
+
+.noticia2, .noticia3, .noticia4{
+    margin-top:-4em;
+    z-index:1;
+    margin-bottom:1em;
+}
+
+
+/*border: 10em solid;
+    border-color: transparent #EEEEEE transparent transparent;*/
 /* ---------------- Fim das telas ---------------- */
