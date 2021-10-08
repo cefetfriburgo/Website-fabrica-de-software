@@ -2,13 +2,13 @@
 /* -------------------- Padrões Gerais -------------------- */
 
 
-
 /* -------------------- Telas -------------------- */
 
 .tela1, .tela2,.tela3{
     padding: 20px 0;
     min-height:50vh;
     align-items: center;
+    margin:0;
 }
 
 .tela1{
@@ -24,13 +24,19 @@
 
 .circulo_preto{
     border-radius: 50%;
-    height:60vh;
-    width:60vh;
+    height:50vh;
+    width:100%;
     display:flex;
     background-color:#333333;
     justify-content:center;
     align-self:end;
     margin: 0 0 -20vh 20vw;
+}
+
+@media (max-width: 1399px){
+    .circulo_preto{
+        width:100vw;
+    }
 }
 
 .circulo_branco{

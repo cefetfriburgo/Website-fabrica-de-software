@@ -4,8 +4,12 @@
     margin-top: 30px;
 }
 
-
 /* -------------------- Telas -------------------- */
+
+.tela1, .tela2, .tela3{
+    width:100vw;
+    margin:0;
+}
 
 .tela1 {
     background-color: #EEEEEE;
@@ -35,6 +39,7 @@
     height: 0;
     display:flex;
     margin-top:-8em;
+    margin-right:-0.75em;
     z-index:0;
 }
 
@@ -46,6 +51,7 @@
     height: 0;
     display:flex;
     margin-top:-8em;
+    margin-left:-0.75em;
     z-index:0;
 }
 
@@ -57,17 +63,8 @@
     height: 0;
     display:flex;
     margin-top:-8em;
+    margin-right:-0.75em;
     z-index:0;
-}
-
-.align-right{
-    display:flex;
-    justify-content:right;
-}
-
-.align-left{
-    display:flex;
-    justify-content:left;
 }
 
 .noticia1{
@@ -80,7 +77,4 @@
     margin-bottom:1em;
 }
 
-
-/*border: 10em solid;
-    border-color: transparent #EEEEEE transparent transparent;*/
 /* ---------------- Fim das telas ---------------- */
