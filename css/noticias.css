@@ -13,7 +13,6 @@
 
 .tela1 {
     background-color: #EEEEEE;
-    z-index: 1;
     position: relative;
 }
 
@@ -28,7 +27,6 @@
 
 .date {
     text-decoration: underline;
-    z-index:1;
 }
 
 .triangulo_branco {
@@ -38,7 +36,7 @@
     width: 0;
     height: 0;
     display:flex;
-    margin-top:-8em;
+    margin-top:-7em;
     margin-right:-0.75em;
     z-index:0;
 }
@@ -50,7 +48,7 @@
     width: 0;
     height: 0;
     display:flex;
-    margin-top:-8em;
+    margin-top:-7em;
     margin-left:-0.75em;
     z-index:0;
 }
@@ -62,13 +60,14 @@
     width: 0;
     height: 0;
     display:flex;
-    margin-top:-8em;
+    margin-top:-7em;
     margin-right:-0.75em;
     z-index:0;
 }
 
 .noticia1{
     margin-top:2em;
+    z-index:1;
 }
 
 .noticia2, .noticia3, .noticia4{
