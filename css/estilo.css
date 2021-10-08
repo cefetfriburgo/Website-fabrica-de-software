@@ -30,6 +30,15 @@
     justify-content:left;
 }
 
+.centralizando{
+    display:flex;
+    justify-content:center;
+    align-self:center;
+}
+
+.justify-text{
+    text-align:justify;
+}
 /* -------------------- Fim dos Padrões Gerais -------------------- */
 
 
@@ -146,12 +155,6 @@ header a:hover, header a:active{
     display:flex;
     align-items: center;
     height: 100%;
-}
-
-.centralizando{
-    display:flex;
-    justify-content:center;
-    align-self:center;
 }
 
 .logos{

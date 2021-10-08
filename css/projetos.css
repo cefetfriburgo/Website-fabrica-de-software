@@ -6,7 +6,7 @@
 
 .tela1, .tela2,.tela3{
     padding: 20px 0;
-    min-height:50vh;
+    min-height:30vh;
     align-items: center;
     margin:0;
 }
