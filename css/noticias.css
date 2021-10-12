@@ -75,4 +75,37 @@
     margin-bottom:1em;
 }
 
+@media (max-width:700px){
+
+    .triangulo_branco {
+        border-top: 3em solid transparent;
+        border-bottom: 3em solid transparent;
+        border-right: 6em solid #EEE;
+        margin-top:-3em;
+    }
+    
+    .triangulo_amarelo{
+        border-top: 3em solid transparent;
+        border-bottom: 3em solid transparent;
+        border-left: 6em solid #F1BE2D;
+        margin-top:-3em;
+    }
+    
+    .triangulo_preto {
+        border-top: 3em solid transparent;
+        border-bottom: 3em solid transparent;
+        border-right: 6em solid #333;
+        margin-top:-3em;
+        margin-right:-0.75em;
+    }
+    
+    .noticia2, .noticia3, .noticia4{
+        margin-top:-1em;
+        z-index:1;
+        margin-bottom:1em;
+    }
+
+
+}
+
 /* ---------------- Fim das telas ---------------- */
