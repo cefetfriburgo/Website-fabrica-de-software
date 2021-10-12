@@ -7,7 +7,6 @@
 /* -------------------- Telas -------------------- */
 
 .tela1, .tela2, .tela3{
-    width:100vw;
     margin:0;
 }
 
@@ -30,37 +29,37 @@
 }
 
 .triangulo_branco {
-    border-top: 7em solid transparent;
-    border-bottom: 7em solid transparent;
-    border-right: 20em solid #EEE;
+    border-top: 4em solid transparent;
+    border-bottom: 4em solid transparent;
+    border-right: 12em solid #EEE;
     width: 0;
     height: 0;
     display:flex;
-    margin-top:-7em;
+    margin-top:-4em;
     margin-right:-0.75em;
     z-index:0;
 }
 
 .triangulo_amarelo{
-    border-top: 7em solid transparent;
-    border-bottom: 7em solid transparent;
-    border-left: 20em solid #F1BE2D;
+    border-top: 4em solid transparent;
+    border-bottom: 4em solid transparent;
+    border-left: 12em solid #F1BE2D;
     width: 0;
     height: 0;
     display:flex;
-    margin-top:-7em;
+    margin-top:-4em;
     margin-left:-0.75em;
     z-index:0;
 }
 
 .triangulo_preto {
-    border-top: 7em solid transparent;
-    border-bottom: 7em solid transparent;
-    border-right: 20em solid #333;
+    border-top: 4em solid transparent;
+    border-bottom: 4em solid transparent;
+    border-right: 12em solid #333;
     width: 0;
     height: 0;
     display:flex;
-    margin-top:-7em;
+    margin-top:-4em;
     margin-right:-0.75em;
     z-index:0;
 }
@@ -71,7 +70,7 @@
 }
 
 .noticia2, .noticia3, .noticia4{
-    margin-top:-4em;
+    margin-top:-2em;
     z-index:1;
     margin-bottom:1em;
 }
