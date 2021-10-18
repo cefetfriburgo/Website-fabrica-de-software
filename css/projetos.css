@@ -26,8 +26,8 @@
 
 .circulos{
     border-radius: 50%;
-    height:45vw;
-    width:45vw;
+    height:40vw;
+    width:40vw;
     display:flex;
     justify-content:center;
     align-self:end;
@@ -40,7 +40,7 @@
 
 .circulo_branco{
     background-color:#EEEEEE;
-    margin: 0 0 -20vh 0;
+    margin: 0 0 -20vh 5vh;
 }
 
 .circulo_amarelo2{
@@ -48,7 +48,7 @@
 }
 
 .img_responsiva{
-    height:35vh;
+    height:30vh;
     align-self:center;
 }
 
@@ -66,6 +66,10 @@
         height:40vw;
         width:40vw;
         margin: 0 0 -20vh 0;
+    }
+
+    .circulo_branco{
+        margin: 0 0 -20vh 5vh;
     }
 
     .img_responsiva{
@@ -90,7 +94,7 @@
     }
 
     .circulo_branco{
-        margin: 0 0 -15vh 0;
+        margin: 0 0 -15vh 5vh;
     }
 
     .img_responsiva{
