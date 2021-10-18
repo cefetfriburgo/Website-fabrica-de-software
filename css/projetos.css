@@ -26,12 +26,12 @@
 
 .circulos{
     border-radius: 50%;
-    height:70vh;
-    width:70vh;
+    height:45vw;
+    width:45vw;
     display:flex;
     justify-content:center;
     align-self:end;
-    margin: 0 -10vh -20vh 0;
+    margin: 0 0 -20vh 0;
 }
 
 .circulo_preto{
@@ -40,7 +40,7 @@
 
 .circulo_branco{
     background-color:#EEEEEE;
-    margin: 0 0 -20vh -10vh;
+    margin: 0 0 -20vh 0;
 }
 
 .circulo_amarelo2{
@@ -53,18 +53,18 @@
 }
 
 .img_esquerda{
-    margin: -20vh -10vh 0 0;
+    margin: -10vh 0 0 0;
 }
 
 .img_direitas{
-    margin: -20vh 0 0 -10vh;
+    margin: -10vh 0 0 0;
 }
 
 @media (min-width: 1000px) and (max-width: 1399px){
 
     .circulos{
-        height:50vh;
-        width:50vh;
+        height:40vw;
+        width:40vw;
         margin: 0 0 -20vh 0;
     }
 
@@ -73,24 +73,24 @@
     }
 
     .img_esquerda{
-        margin: -10vh -8vh 0 0;    
+        margin: -10vh 0 0 0; 
     }
     
     .img_direitas{
-        margin: -10vh 0 0 -8vh;
+        margin: -10vh 0 0 0;
     }
 }
 
 @media (min-width: 800px) and (max-width: 999px){
 
     .circulos{
-        height:45vh;
-        width:45vh;
-        margin: 0 -5vh -15vh 0;
+        height:40vh;
+        width:40vh;
+        margin: 0 0 -15vh 0;
     }
 
     .circulo_branco{
-        margin: 0 0 -15vh -5vh;
+        margin: 0 0 -15vh 0;
     }
 
     .img_responsiva{
@@ -98,24 +98,24 @@
     }
 
     .img_esquerda{
-        margin: -10vh -8vh 0 0;    
+        margin: -8vh 0 0 0;  
     }
     
     .img_direitas{
-        margin: -10vh 0 0 -8vh;
+        margin: -8vh 0 0 0;
     }
 }
 
 @media (min-width: 600px) and (max-width: 799px){
 
     .circulos{
-        height:40vh;
-        width:40vh;
-        margin: 0 -5vh -15vh 0;
+        height:30vh;
+        width:30vh;
+        margin: 0 0 -25vh 0;
     }
 
     .circulo_branco{
-        margin: 0 0 -15vh -5vh;
+        margin: 0 0 -5vh 5vh;
     }
 
     .img_responsiva{
@@ -123,24 +123,24 @@
     }
 
     .img_esquerda{
-        margin: -10vh -8vh 0 0;    
+        margin: -3vh 0 0 0;  
     }
     
     .img_direitas{
-        margin: -10vh 0 0 -8vh;
+        margin: -3vh 0 0 0;
     }
 }
 
 @media (max-width: 599px){
 
     .circulos{
-        height:35vh;
-        width:35vh;
-        margin: 0 -10vh -30vh 0;
+        height:30vh;
+        width:30vh;
+        margin: 0 0 -30vh 0;
     }
 
     .circulo_branco{
-        margin: 0 0 -10vh -5vh;
+        margin: 0 0 -10vh 0;
     }
 
     .img_responsiva{
@@ -148,11 +148,11 @@
     }
 
     .img_esquerda{
-        margin: -10vh -8vh 0 0;    
+        margin: 0;    
     }
     
     .img_direitas{
-        margin: -10vh 0 0 -8vh;
+        margin: 0;    
     }
 }
 
