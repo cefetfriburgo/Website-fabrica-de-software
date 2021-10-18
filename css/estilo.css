@@ -60,6 +60,12 @@
 
 /* ----------------------- Novo Menu ------------------- */
 
+@media (max-width:768px){
+    .logos{
+        max-width:25vw;
+    }    
+}
+
 #menu-personalizado {
     background-color: #333333;
 } 
